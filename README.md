@@ -6,6 +6,8 @@ SparseTSF在MindSpore上的代码迁移
 
 ## 模型启动前准备
 
+创建3.8的Python环境，目前不支持其他版本的Python，受限于MindSpore的版本变化。
+
 ```bash
 conda create -n SparseTSF-MS python=3.8
 ```
